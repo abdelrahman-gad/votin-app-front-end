@@ -2,7 +2,7 @@
 const API_URL = `https://node-js-voting-app-api.herokuapp.com`;
 
 
-console.log('client js');
+// console.log('client js');
 const listOfVidsElm = document.getElementById('listOfRequests');
  const SUPER_USER_ID='5fb59e0de763e7037c90bbbb';
  const state={
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function(){
             loadAllVidReqs(state.sortBy , state.searchTerm,state.filterBy);
             filterByElms.forEach(option => option.classList.remove('active'));
             this.classList.add('active');
-            console.log(this);
+           // console.log(this);
          });
     });
 
